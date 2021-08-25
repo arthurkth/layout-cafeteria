@@ -1,0 +1,6 @@
+Títulos e textos com maior destaque: #262626
+
+Textos com menos destaque: #656565
+
+Page bg: #FFF
+Footer: #212121

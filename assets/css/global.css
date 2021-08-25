@@ -1,0 +1,18 @@
+:root {
+  --title-font: "Marcellus", serif;
+  --weight-paragraph: 300;
+  --weight-button: 600;
+  --primary-text: #262626;
+  --secundary-text: #656565;
+  --page-bg: #fff;
+  --footer-bg: #262626;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+

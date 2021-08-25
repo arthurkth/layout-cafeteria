@@ -1,0 +1,99 @@
+.contact {
+    background-color: #fefefe;
+    margin: 2rem 0;
+}
+
+.contact__call-title {
+    font-size: 1.125rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary-text);
+    margin-bottom: 1rem;
+    font-family: var(--title-font);
+    text-transform: uppercase;
+    padding: 2rem 0 1rem;
+}
+
+.contact__form {
+    width: 90%;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   justify-content: center;
+}
+.contact__form--label {
+    font-size: 1.2rem;
+    display: block;
+    color: var(--primary-text);
+    font-weight: 400;
+    margin: .5rem 0;
+}
+
+.contact__form--input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    outline: none;
+    margin: 1rem 0 0;
+    border: 1px solid #CCC;
+}
+.contact__form--textarea {
+    margin: 1rem 0 0;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    height: 100px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;  
+}
+
+.contact__form--button {
+    background-color: #262626;
+    padding: 17px;
+    width: 200px;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background .2s;
+    border: 1px solid #262626;
+}
+
+.contact__form--input.contact__form--textarea::placeholder {
+    color: #CCC;
+}
+
+
+@media (min-width: 768px) {
+    .contact__call-title {
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 992px) {
+    .contact__form {
+        width: 50%;
+        margin: auto;
+    }
+}
+@media (min-width:992px) {
+    .contact__form--button:hover {
+        background-color: #fefefe;
+        color: var(--primary-text);
+    }
+}
+@media (min-width: 1900px) {
+    .contact {
+        padding: 5rem 0;
+    }
+    .contact__form {
+        width: 40%;
+    }
+    .contact__call-title {
+        font-size: 3rem;
+    }
+}

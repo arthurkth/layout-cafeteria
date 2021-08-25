@@ -1,0 +1,47 @@
+.business-hours {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.business-hours__banner {
+    width: 100%;
+}
+
+.business-hours__container {
+    width: 100%;
+    background-color: #F8E7D3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0;
+}
+
+.business-hours__title {
+    font-size: 1.4rem;
+    font-family: var(--title-font);
+    color: var(--primary-text);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.business-hours__description {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: var(--secundary-text);
+}
+
+@media (min-width: 992px) {
+    .business-hours {
+        flex-direction: row;
+    }
+    .business-hours__banner {
+        width: 33.33%;
+    }
+    .business-hours__banner:hover {
+        filter: grayscale(.8);
+    }
+    .business-hours__container {
+        width: 33.33%;
+    }
+}

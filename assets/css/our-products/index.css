@@ -1,0 +1,159 @@
+.coffee__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.our__products-call {
+    padding: 3rem 0;
+}
+
+.our__products-call-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-text);
+    margin-bottom: 1rem;
+    font-family: var(--title-font);
+    text-transform: uppercase;
+}
+
+.our__products-call-description {
+    font-size: 1rem;
+    font-weight: var(--weight-paragraph);
+    line-height: 1.5;
+    color: var(--primary-text);
+}
+.coffee__item {
+    display: flex;
+    margin: .5rem 2rem 2rem;
+    justify-content: space-between;
+    flex: 1 1 45%;
+}
+.coffee__item-container--image {
+    display: none;
+}
+.coffee__item-name-container {
+    display: flex;
+}
+.coffee__item-name {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--primary-text);
+    text-transform: uppercase;
+    font-family: var(--title-font);
+   
+}
+
+.coffee__item-container--description {
+    width: 100%;
+}
+.coffee__item-ingredients {
+    display: none;
+    font-size: 1.2rem;
+    color: var(--secundary-text);
+}
+
+.coffee__item-container--dots{
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coffee__item-dots {
+    border-top: 2px dashed #939393;
+    width: 90%
+}
+
+.coffee__item-price {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--primary-text);
+    font-family: var(--title-font);
+ }
+
+
+
+ @media (min-width:768px){
+    .our__products-call {
+        padding: 6rem 0;
+    }
+    
+    .our__products-call-title {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .our-products__call-description {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: var(--primary-text);
+    }
+    .coffee__item {
+        align-items: center;
+    }
+    .coffee__item-name {
+        font-size: 1.125rem;
+        font-weight: bold;
+    }
+    .coffee__item-container--price {
+        align-self: flex-start;
+        margin-top: 1.2rem;
+    }
+    .coffee__item-price {
+        font-size: 1.125rem;
+        font-weight: bold;
+       
+    }
+    .coffee__item-ingredients {
+        display: block;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    .coffee__item-dots {
+        border-top: 3px dashed #939393;
+    }
+    .coffee__item-container--image {
+        display: block;
+        width: 15%;
+        margin-right: 1.5rem;
+    }
+    .coffee__item-image {
+      width: 100px;
+      height: 100px;
+      display: block;
+      border-radius: 50%;
+    }
+ }
+
+
+ @media (min-width:1200px) {
+    .coffee__container {
+        padding-bottom: 4rem;
+    }
+    .our__products {
+        margin: auto;
+        width: 70%;
+    }
+    .our-products__call-description {
+        margin: 0 auto 2.5rem;
+    }
+
+    .coffee__item {
+        margin: 2rem;
+    }
+    .coffee__item-container--image {
+        width: 13%;
+    }
+
+ }
+
+ @media (min-width:1900px) {
+    .our__products-call-title {
+        font-size: 3rem;
+    }
+    .our-products__call-description {
+        width: 70%;
+        font-size: 1.4rem;
+    }
+    .coffee__item-name, .coffee__item-price {
+        font-size: 1.4rem;
+    }
+ }

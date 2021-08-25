@@ -1,0 +1,19 @@
+.our-place {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 5rem;
+}
+.our-place__banner {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .our-place {
+        flex-direction: row;
+        padding: 3rem 0 0;
+    }
+    .our-place__banner {
+        width: 50%;
+    }
+}
+

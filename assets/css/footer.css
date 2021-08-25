@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--footer-bg);
+    padding: 10px;
+    text-align: center;
+}
+
+.footer__copy {
+    font-size: 1rem;
+    color: #FFF;
+}
+
+.footer__copy a {
+    color: #CFB69C;
+    font-weight: bold;
+}
